@@ -277,7 +277,7 @@ async function registerCommands() {
 // ==================== BOT READY ====================
 client.once('ready', () => {
   console.log(`✅ Bot ${client.user.tag} đã online!`);
-  client.user.setActivity('🎮 /help | Tài Xỉu & Wordle', { type: 0 });
+  client.user.setActivity('🎮 /help', { type: 0 });
   registerCommands();
 });
 
