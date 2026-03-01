@@ -1,11 +1,9 @@
 {
-  "name": "discord-bot-vn",
-  "version": "3.0.0",
-  "description": "Bot Discord đa năng - lưu dữ liệu JSON",
+  "name": "discord-bot-ultimate",
+  "version": "4.0.0",
+  "description": "Bot Discord Toàn Năng",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "scripts": { "start": "node index.js" },
   "dependencies": {
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5"
