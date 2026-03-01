@@ -226,7 +226,7 @@ async function registerCommands() {
 
 client.once('ready', () => {
   console.log(`✅ Bot ${client.user.tag} online!`);
-  client.user.setActivity('🎮 /help | Bot Toàn Năng', { type: 0 });
+  client.user.setActivity('🎮 /help | Bot Vui Vẻ', { type: 0 });
   registerCommands();
 });
 
@@ -630,7 +630,7 @@ client.on('interactionCreate', async interaction => {
 
     // ===== HELP =====
     else if (commandName === 'help') {
-      return interaction.reply({embeds:[new EmbedBuilder().setTitle('📚 Bot Toàn Năng').setColor(0x5865F2).setDescription('Tất cả lệnh của bot 🎮').addFields(
+      return interaction.reply({embeds:[new EmbedBuilder().setTitle('📚 Bot Vui Vẻ').setColor(0x5865F2).setDescription('Tất cả lệnh của bot 🎮').addFields(
         {name:'💰 Kinh tế',value:'`/balance` `/daily` `/work` `/hunt` `/fish`\n`/deposit` `/withdraw` `/pay` `/rob`\n`/leaderboard` `/profile`'},
         {name:'🎲 Cờ bạc',value:'`/taixiu` `/baucua` `/coinflip` `/cf`\n`/slots` `/blackjack` `/highlow`\n`/lottery` `/russianroulette` `/race`'},
         {name:'🧠 Trí tuệ',value:'`/wordle` `/guess` `/trivia` `/answer`\n`/hangman` `/letter` `/startnumber` `/number`\n`/rps` `/8ball` `/roll`'},
